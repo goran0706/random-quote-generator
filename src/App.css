@@ -1,0 +1,56 @@
+.wrapper {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.ant-layout {
+  background-color: transparent;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 60%;
+  min-width: 60%;
+  min-height: 10rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  row-gap: 1rem;
+}
+
+.quote__text {
+  color: #efb578;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 4rem;
+  border-radius: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Patrick Hand", cursive;
+}
+
+.quote__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #efb578 !important;
+  border-color: #efb578 !important;
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
+  color: #333 !important;
+}
+
+.quote__btn.ant-btn:hover,
+.quote__btn.ant-btn:focus {
+  background-color: #d59f6a !important;
+}
+
+.shoutout {
+  width: 100%;
+  color: white;
+  font-size: 1rem;
+  text-align: right;
+  padding: 2rem;
+}
